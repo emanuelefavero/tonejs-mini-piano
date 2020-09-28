@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tone JS Project</title>
+
+    <!-- CSS link -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts Poppins -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- CONTROLS -->
+    <section class="controls">
+        <!-- filter -->
+        <input type="range" class="slider" id="cutoff" name="cutoff" min="100" max="2000" value="2000">
+
+        <!-- delay -->
+        <input type="range" class="slider" name="delayTime" id="delayTime" min="1" max="95" value="1">
+
+        <input type="range" class="slider" name="delayFeedback" id="delayFeedback" min="1" max="95" value="1">
+    </section>
+
+        <!-- KEYBOARD -->
+        <section class="keyboard">
+            <button class="a key white">a</button>
+            <button class="s key white">s</button>
+            <button class="d key black">d</button>
+            <button class="f key white">f</button>
+            <button class="g key white">g</button>
+            <button class="h key black">h</button>
+            <button class="j key white">j</button>
+        </section>
+
+        <!-- FOOTER -->
+        <footer>
+            <a class="reset" href="#">Reset</a>
+
+            <div class="made-by">Made by
+                <a class="email" href="mailto:emafaux89@gmail.com">Whitenoise</a>
+            </div>
+        </footer>
+
+        <!-- Tone JS CDN -->
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/tone/14.7.60/Tone.js"
+            integrity="sha512-+luS5BFaFcKtV15UoNKA+FYZS9K4PkkE4yK2mO/g+99/24OJikgxvEhGRQs7YOPNpPw7hBxv1aQfS1CZryD3qQ=="
+            crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+</body>
+
+</html>
