@@ -47,6 +47,10 @@ a:active {
     transition: .3s;
 }
 
+.invert {
+    filter: invert(1);
+}
+
 main {
     transition: .3s;
     opacity: 1;
