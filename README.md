@@ -19,3 +19,7 @@ This is a mini piano application that uses the Tone.js Web Audio framework.
 - Delay Time
 - Delay Feedback
 - Dark, Light Theme
+
+## License
+
+- [MIT](LICENSE.md)
