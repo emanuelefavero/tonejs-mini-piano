@@ -4,6 +4,14 @@ This is a mini piano application that uses the Tone.js Web Audio framework.
 
 > Learn more about [Tone.js](https://tonejs.github.io/)
 
+## Live Demo
+
+- [Play Now](https://emanuelefavero.github.io/tonejs-mini-piano/)
+
+## Screenshot
+
+<img src="screenshot.png" alt="screenshot" width="300">
+
 ## Getting Started
 
 - clone the repo and open the `index.html` file in your browser
